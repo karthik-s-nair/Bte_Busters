@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Order Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="c1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CS Canteen Form</h1>
+      <div class="time-options">
+        <button id="lunch" class="active">Lunch</button>
+        <button id="evening">Breakfast</button>
+      </div>
+    </header>
+    <div class="container">
+      <div id="lunch-menu" class="menu-container hidden">
+        <!-- Lunch menu items -->
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="meals.jpeg" alt="Parippuvada" />
+          </div>
+          <div class="item-details">
+            <h3>Meals</h3>
+            <p>“Classic Kerala Meals.”</p>
+            <p>Rs.100.00</p>
+            <button class="order-btn" data-item="Meals">Order</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="pv.jpeg" alt="Parippuvada" />
+          </div>
+          <div class="item-details">
+            <h3>Parippuvada</h3>
+            <p>“When you see parippuvada, and suddenly life makes sense.”</p>
+            <p>Rs.10.00</p>
+            <button class="order-btn" data-item="Parippuvada">Order</button>
+          </div>
+        </div>
+        <!-- Add more lunch menu items here -->
+      </div>
+      <div id="evening-menu" class="menu-container hidden">
+        <!-- Evening menu items -->
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="appam.jpeg" alt="Parippuvada" />
+          </div>
+          <div class="item-details">
+            <h3>Appam and Stew</h3>
+            <p>“Soft Appam with Steam Stew.”</p>
+            <p>Rs.100.00</p>
+            <button class="order-btn" data-item="Appam and Stew">Order</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="uv.jpeg" alt="Uzhunnuvada" />
+          </div>
+          <div class="item-details">
+            <h3>Uzhunnuvada</h3>
+            <p>
+              The image showcases a blissful person sitting cross-legged on a
+              cloud made entirely of uzhunnu vadas (medu vadas). The person’s
+              face radiates pure joy, and their eyes are closed in ecstasy.
+              Uzhunnu vadas surround them, forming a fluffy, golden cushion. In
+              one hand, they grasp a sambar-filled uzhunnu vada like a prized
+              possession. A heavenly glow envelops the entire scene.
+            </p>
+            <p>Rs.12.00</p>
+            <button class="order-btn" data-item="Uzhunnuvada">Order</button>
+          </div>
+        </div>
+        <!-- Add more evening menu items here -->
+      </div>
+    </div>
+    <div id="order-confirmation" class="hidden">
+      <div class="confirmation-box">
+        <span class="close-btn">&times;</span>
+        <h3>Order Booked</h3>
+        <p id="order-details"></p>
+      </div>
+    </div>
+    <script src="js1.js"></script>
+  </body>
+</html>

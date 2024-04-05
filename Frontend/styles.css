@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6c63ff, #9e92ff);
+    background-image: url("aa.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-box h1 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #888888;
+    pointer-events: none;
+}
+
+form input {
+    width: 100%;
+    padding: 15px 40px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #6c63ff, #9e92ff);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #9e92ff, #6c63ff);
+}
+
+.sign-up {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sign-up a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.sign-up a:hover {
+    color: #9e92ff;
+}
+
+/* ... (existing CSS styles) ... */
+
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+}

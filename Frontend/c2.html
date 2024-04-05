@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Order Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="c1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Civil Canteen Form</h1>
+      <div class="time-options">
+        <button id="lunch" class="active">Lunch</button>
+        <button id="evening">Breakfast</button>
+      </div>
+    </header>
+    <div class="container">
+      <div id="lunch-menu" class="menu-container hidden">
+        <!-- Lunch menu items -->
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="lime.jpeg" alt="Parippuvada" />
+          </div>
+          <div class="item-details">
+            <h3>Lime</h3>
+            <p>“Sour and Sweet makes you Blush.”</p>
+            <p>Rs.10.00</p>
+            <button class="order-btn" data-item="Lime">Order</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="pazam.jpeg" alt="Parippuvada" />
+          </div>
+          <div class="item-details">
+            <h3>PazamPori</h3>
+            <p>Eniku Ratheesh</p>
+            <p>RS10.00</p>
+            <button class="order-btn" data-item="PazamPori">Order</button>
+          </div>
+        </div>
+        <!-- Add more lunch menu items here -->
+      </div>
+      <div id="evening-menu" class="menu-container hidden">
+        <!-- Evening menu items -->
+        <div class="menu-item">
+          <div class="item-image">
+            <img src="mulaku.jpeg" alt="Uzhunnuvada" />
+          </div>
+          <div class="item-details">
+            <h3>Mulaku Baji</h3>
+            <p>Very Hot</p>
+            <p>RS12.00</p>
+            <button class="order-btn" data-item="Mulaku Baji">Order</button>
+          </div>
+        </div>
+        <!-- Add more evening menu items here -->
+      </div>
+    </div>
+    <div id="order-confirmation" class="hidden">
+      <div class="confirmation-box">
+        <span class="close-btn">&times;</span>
+        <h3>Order Booked</h3>
+        <p id="order-details"></p>
+      </div>
+    </div>
+    <script src="js1.js"></script>
+  </body>
+</html>

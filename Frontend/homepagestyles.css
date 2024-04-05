@@ -1,0 +1,135 @@
+/* General Styles */
+.desc{
+    
+    color: #fbfbfb;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    padding: 1px;
+}
+.user{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+body {
+    background-image: url("aa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #ffffff;
+}
+
+.para{
+    padding:2rem;
+    right: 5rem;
+}
+
+/* Header Styles */
+header {
+    font-family: 'Poppins', sans-serif;/*new*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #9430ff, #4c3f91);
+    background-image: url("aa.jpg");/*new line*/
+    background-size: cover;
+    color: #ffffff;
+}
+
+.logo {
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 70000;
+    margin: 0 auto;
+    text-shadow: 2px 2px #a80505,0px 0px rgb(168, 168, 248);
+}
+
+.user-info a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.user-info a:hover {
+    color: #ff9a76;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    position: relative;
+}
+
+.burger-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    background-color: #fbfbfb;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    padding: 12px 16px;
+    font-weight: 700;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f8f8;
+    color: #7950f2;
+}
+
+/* Main Content Styles */
+main {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    color: #333333;
+    padding: 20px;
+    text-align: bottom;
+    position: absolute;
+    bottom: 100px;
+    background-color: transparent;
+
+}
+
+.about a {
+    color: #beb4de;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.about a:hover {
+    color: #ff9a76;
+}
