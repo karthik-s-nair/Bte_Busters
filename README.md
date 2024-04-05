@@ -4,32 +4,37 @@
 
 
 ## Team Name
-Name  
+Byte_Busters
 
 # Team Member
-Member 1 Github Link
+https://github.com/karthik-s-nair
 
-MEmber 2 Github Link
+https://github.com/adarshsaju1234
 
 ## Idea
-Breif Idea in two three sentences 
+A website that unifies all the canteens for seamless management of queues by providing an online platform which enables them to order food 18hrs before the checkout
 
 ## Features 
-1. 
+1. easy to use
+2. scalable
+3. fast
+4. provides you with all necessary deatils
+5. provides a reminder for the items ordered
 
 ## Link to product walkthrough
-[link to video](Link Here)
+https://drive.google.com/drive/folders/15bDQdNGOZnyboUhe-K5gK_UgMRtlAHUV?usp=sharing
 
    
 ## Libraries used
-Library Name - Version
+SQLAlchemy
+Django
 
 
 ## How to configure
-Instructions for setting up project
+just make sure all files of the frontend are in same folder
 
 ## How to Run
-Instructions for running
+Run login.html or host it in a server and use domain name for searching
 
 ## How to contribute ? 
-Features to implement 
+complete implementation of backend and adding a cart feature for multiple checkout
