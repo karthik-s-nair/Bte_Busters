@@ -34,7 +34,7 @@ Django
 just make sure all files of the frontend are in same folder
 
 ## How to Run
-Run login.html or host it in a server and use domain name for searching
+Run login.html or host it in a server and use domain name for searching and use usernam:user1 and password:password1
 
 ## How to contribute ? 
 complete implementation of backend and adding a cart feature for multiple checkout
